@@ -7,11 +7,12 @@ import Speech from './speech';
 import Chat from './chat';
 import Steam from './steam';
 import TextToSpeech from './TextToSpeech';
+import VoiceResponseDemo from './VoiceResponseDemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TextToSpeech />
+    <VoiceResponseDemo />
   </React.StrictMode>
 );
 
